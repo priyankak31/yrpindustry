@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
+import { FormBuilder, FormGroup } from '@angular/forms';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-home',
+  templateUrl: './home.component.html',
+  styleUrls: ['./home.component.css']
 })
-export class AppComponent {
-  title = 'YRPIndustry';
+export class HomeComponent {
   courseArr: any = [
     {
       id: 1, courseImg: '../assets/images/download.png', courseName: "MEAN Stack",
@@ -131,4 +131,20 @@ export class AppComponent {
       },
     ],
   };
+  form: FormGroup;
+  courses: string[] = ['Course 1', 'Course 2', 'Course 3'];
+  internships: string[] = ['Internship 1', 'Internship 2', 'Internship 3'];
+
+  constructor(private fb: FormBuilder) {
+    this.form = this.fb.group({
+      name:'',
+      message:'',
+      email:'',
+      selectedOption: '',
+      selectedCourse: '',
+      selectedInternship: ''
+    });
+  }
 }
+
+

@@ -1,0 +1,338 @@
+<!-- =========================
+          PRE LOADER       
+     ============================== -->
+     <div class="preloader">
+
+        <div class="sk-rotating-plane"></div>
+   
+   </div>
+   
+   
+   <!-- =========================
+             NAVIGATION LINKS     
+        ============================== -->
+   <div class="navbar navbar-fixed-top custom-navbar" role="navigation">
+        <div class="container">
+   
+             <!-- navbar header -->
+             <div class="navbar-header">
+                  <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                       <span class="icon icon-bar"></span>
+                       <span class="icon icon-bar"></span>
+                       <span class="icon icon-bar"></span>
+                  </button>
+                  <a href="#" class="navbar-brand">New Event</a>
+             </div>
+   
+             <div class="collapse navbar-collapse">
+   
+                  <ul class="nav navbar-nav navbar-right">
+                       <li><a href="#intro" class="smoothScroll">Home</a></li>
+                       <li><a href="#overview" class="smoothScroll">About</a></li>
+                       <li><a href="#speakers" class="smoothScroll">Testimonial</a></li>
+                       <li><a href="#program" class="smoothScroll">Course</a></li>
+                       <li><a href="#register" class="smoothScroll">Services</a></li>
+                       <li><a href="#contact" class="smoothScroll">Contact</a></li>
+                  </ul>
+   
+             </div>
+   
+        </div>
+   </div>
+   
+   
+   <!-- =========================
+            INTRO SECTION   
+        ============================== -->
+   <section id="intro" class="parallax-section ">
+        <div class="container">
+             <div class="row">
+   
+                  <div class="col-md-12 col-sm-12">
+                       <h3 class="wow bounceIn" data-wow-delay="0.9s"></h3>
+                       <h1 class="wow fadeInUp" data-wow-delay="1.6s"></h1>
+                       <a href="#overview" class="btn btn-lg btn-default smoothScroll wow fadeInUp hidden-xs"
+                            data-wow-delay="2.3s">LEARN MORE</a>
+                       <a href="#register" class="btn btn-lg btn-danger smoothScroll wow fadeInUp"
+                            data-wow-delay="2.3s">REGISTER NOW</a>
+                  </div>
+   
+   
+             </div>
+        </div>
+   </section>
+   
+   
+   <!-- =========================
+            OVERVIEW SECTION   
+        ============================== -->
+   <section id="overview" class="parallax-section">
+        <div class="container">
+             <div class="row">
+   
+                  <div class="wow fadeInUp col-md-6 col-sm-6" data-wow-delay="0.6s">
+                       <h3> Take the next step toward your personal and professional goals with us.</h3>
+                       <p>
+                            YRP Technologies foray into Training & Internship signifies a natural progression,
+                            fueled by
+                            a passion for fostering the next generation of tech enthusiasts. The programs are meticulously
+                            designed to provide participants with hands-on experience, practical insights, and a deep
+                            understanding of industry best practices. Leveraging its proven expertise in mobile app
+                            development, website development, and other key areas, YRP Technologiesaims to
+                            empower
+                            individuals with the skills and knowledge needed to thrive in the fast-paced and competitive
+                            landscape of the tech industry.
+   
+                       </p>
+                  </div>
+   
+   
+                  <div class="wow fadeInUp col-md-6 col-sm-6" data-wow-delay="0.9s">
+                       <img src="../assets/images/overview-img.jpg" class="img-responsive" alt="Overview">
+                  </div>
+   
+             </div>
+        </div>
+   </section>
+   
+   
+   <!-- =========================
+            COURSE OVERVIEW SECTION   
+        ============================== -->
+   <section id="detail" class="parallax-section">
+        <div class="container">
+             <section class="featued-sec">
+                  <div class="wrapper">
+                       <div class="title">
+                            <h2 style="color: #fff;">Our Featured Courses</h2>
+                       </div>
+                       <ngx-slick-carousel class="carousel featured-slider course-wrap" #slickModal="slick-carousel"
+                            [config]="courseConfig">
+                            <div ngxSlickItem *ngFor="let page of courseArr" class="slide">
+   
+                                 <div class="Card3">
+                                      <img src="//pp.vk.me/c627531/v627531615/d330/g5Gk5kM5esw.jpg" />
+                                      <div class="overlay">
+                                           <div>
+                                                <h3 class="card-title">Card Title</h3>
+                                           </div>
+                                           <div class="content">
+                                                <p>Bringing unlocked me an striking ye perceive. Mr by wound hours oh
+                                                     happy. Me in resolution pianoforte continuing we. Most my no spot felt
+                                                     by no. He he in forfeited furniture sweetness he arranging. Me tedious
+                                                     so to behaved written account ferrars moments. </p>
+                                           </div>
+                                      </div>
+                                 </div>
+   
+   
+   
+                            </div>
+                       </ngx-slick-carousel>
+                       <div class="btn-wrap">
+                            <h3 class="wow bounceIn" data-wow-delay="0.9s"></h3>
+                            <h1 class="wow fadeInUp" data-wow-delay="1.6s"></h1>
+   
+                            <a href="#overview" class="btn btn-lg btn-default smoothScroll wow fadeInUp hidden-xs"
+                                 data-wow-delay="2.3s">View More Courses</a>
+                       </div>
+                  </div>
+             </section>
+   
+        </div>
+   </section>
+   
+   
+   <!-- =========================
+            VIDEO SECTION   
+        ============================== -->
+   <section id="video" class="parallax-section">
+        <div class="container">
+             <div class="row">
+   
+                  <div class="wow fadeInUp col-md-6 col-sm-10" data-wow-delay="1.3s">
+                       <h2>Watch Video</h2>
+                       <h3>Quisque ut libero sapien. Integer tellus nisl, efficitur sed dolor at, vehicula finibus massa.
+                            Sed tincidunt metus sed eleifend suscipit.</h3>
+                       <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+                            ut laoreet. Dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet consectetuer diam
+                            nonummy.</p>
+                  </div>
+                  <div class="wow fadeInUp col-md-6 col-sm-10" data-wow-delay="1.6s">
+                       <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XDPwXQjAlB0"
+                                 allowfullscreen></iframe>
+                       </div>
+                  </div>
+   
+             </div>
+        </div>
+   </section>
+   
+   
+   <!-- =========================
+            testimonial1 SECTION   
+        ============================== -->
+   <section id="speakers" class="parallax-section">
+        <div class="container">
+             <div class="row">
+   
+                  <div class="col-md-12 col-sm-12 wow bounceIn">
+                       <div class="section-title">
+                            <h2>Testimonial</h2>
+                       </div>
+   
+                       <ngx-slick-carousel class="carousel why-otr-slider" #slickModal="slick-carousel"
+                            [config]="reviewConfig">
+                            <div ngxSlickItem *ngFor="let slide of reviewList" class="slide">
+                                 <div class="innerdiv">
+                                      <div class="div4 eachdiv">
+                                           <div class="userdetails">
+                                                <div class="detbox">
+                                                     <h4 class="name dark">Jeanette Harmon</h4>
+                                                     <p class="designation dark">Verified Graduate</p>
+                                                </div>
+                                           </div>
+                                           <div class="review dark">
+                                                <!-- <h4>An overall wonderful and rewarding experience</h4> -->
+                                                <p>“ Thank you for the wonderful experience! I now have a job I really
+                                                     enjoy, and make a good living while doing something I love. ”</p>
+                                           </div>
+                                      </div>
+                                 </div>
+                            </div>
+                       </ngx-slick-carousel>
+   
+                  </div>
+             </div>
+        </div>
+   </section>
+   
+   <!-- =========================
+            CONTACT SECTION   
+        ============================== -->
+   <section id="contact" class="parallax-section">
+        <div class="container">
+             <div class="row">
+               <div class="col-md-12 col-sm-12 ">
+                    <div>
+                         
+                              <h2>Contact Details</h2>
+                        
+                    </div>
+
+               </div>
+
+
+   
+                  <div class="wow fadeInUp col-md-offset-1 col-md-5 col-sm-6" data-wow-delay="0.6s">
+                       <div class="contact_des">
+                            
+                              <div class="contact-detail">
+                                <!-- <h1 class="section-title">Contact us</h1> -->
+                      
+                                <ul class="contact-ul">
+                                  <li><i class="fa fa-search"></i> 91, Ram Nagar, Ram Mandir, Delhi</li>
+                      
+                                  <li>
+                                    <i class="fa fa-phone"></i>
+                                    <a href="tel:08510004495"><b>0255000XXXX</b></a>,
+                                    <a href="tel:08510005495"><b>0251600XXXX</b></a>
+                                  </li>
+                      
+                                  <li>
+                                    <i class="fa-solid fa-envelope"></i>
+                                    <a href="mailto:pardeepkumar4bjp@gmail.com"><b> demounknown@gmail.com</b></a>
+                                  </li>
+                                </ul>
+                      
+                                <span>
+                                  <a href="#" class="fb"><i class="fa-brands fa-facebook"></i></a>
+                                  <a href="#" class="insta"><i class="fa-brands fa-instagram"></i></a>
+                                  <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+                                </span>
+                              </div>
+                       </div>
+                  </div>
+   
+                  <div class="wow fadeInUp col-md-5 col-sm-6" data-wow-delay="0.9s">
+                       <div class="contact_detail">
+                            <div class="section-title">
+                                 <h2>Enquiry Form</h2>
+                            </div>
+                            <form  method="post" [formGroup]="form">
+                                 <input name="name" type="text" class="form-control" formControlName="name" id="name" placeholder="Name">
+                                 <input name="email" type="email" class="form-control" formControlName="email" id="email" placeholder="Email">
+                                <!-- <div class="row"> -->
+                                   <!-- <div class="col-md-6"> -->
+                                        <!-- <label> -->
+                                             <input type="radio" formControlName="selectedOption" value="course"> Course
+                                           <!-- </label> -->
+                                   <!-- </div> -->
+                                   <!-- <div class="col-md-6"> -->
+                                        <!-- <label> -->
+                                             <input type="radio" formControlName="selectedOption" value="internship"> Internship
+                                        
+                                           <!-- </label> -->
+                                   <!-- </div> -->
+                                   <div *ngIf="form.get('selectedOption')?.value === 'course'">
+                                        <h4>Choose a course:</h4>
+                                        <select formControlName="selectedCourse">
+                                          <option *ngFor="let course of courses" [value]="course">{{ course }}</option>
+                                        </select>
+                                      </div>
+                                      
+                                      <div *ngIf="form.get('selectedOption')?.value === 'internship'">
+                                        <h4>Choose an internship:</h4>
+                                        <select formControlName="selectedInternship">
+                                          <option *ngFor="let internship of internships" [value]="internship">{{ internship }}</option>
+                                        </select>
+                                      </div>
+                                      
+                                <!-- </div> -->
+                                
+                                 <textarea name="message" rows="5" class="form-control" 
+                                 formControlName="message" id="message" placeholder="Message"></textarea>
+                                   
+                                 <div class="col-md-6 col-sm-10">
+                                      <input name="submit" type="submit" class="form-control" id="submit" value="SEND">
+                                 </div>
+                            </form>
+                       </div>
+                  </div>
+   
+             </div>
+        </div>
+   </section>
+   
+   
+   <!-- =========================
+            FOOTER SECTION   
+        ============================== -->
+   <footer>
+        <div class="container">
+             <div class="row">
+   
+                  <div class="col-md-12 col-sm-12">
+                       <p class="wow fadeInUp" data-wow-delay="0.6s">Copyright &copy; 2016 Your Company
+   
+                            | Design: <a rel="nofollow" href="http://www.templatemo.com/page/1"
+                                 target="_parent">Templatemo</a></p>
+   
+                       <ul class="social-icon">
+                            <li><a href="#" class="fa fa-facebook wow fadeInUp" data-wow-delay="1s"></a></li>
+                            <li><a href="#" class="fa fa-twitter wow fadeInUp" data-wow-delay="1.3s"></a></li>
+                            <li><a href="#" class="fa fa-dribbble wow fadeInUp" data-wow-delay="1.6s"></a></li>
+                            <li><a href="#" class="fa fa-behance wow fadeInUp" data-wow-delay="1.9s"></a></li>
+                            <li><a href="#" class="fa fa-google-plus wow fadeInUp" data-wow-delay="2s"></a></li>
+                       </ul>
+   
+                  </div>
+   
+             </div>
+        </div>
+   </footer>
+   
+   
+   <!-- Back top -->
+   <a href="#back-top" class="go-top"><i class="fa fa-angle-up"></i></a>
